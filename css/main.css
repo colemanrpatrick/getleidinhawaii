@@ -72,7 +72,7 @@ main {
 
 @media(max-width:1800px) {
 	body {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 
@@ -136,6 +136,9 @@ p {
 	}
 }
 
+.cart .container {
+  max-width: 100%;
+}
 /*======== mobile menu btn =========*/
 #phone-mobile p {
 	display: inline-block;
@@ -164,6 +167,8 @@ p {
 	position: absolute;
 	border: 0.25em solid #8F2D56;
 	height: 0;
+	opacity: 1;
+	margin: auto;
 }
 
 .menu-btn-hr-1 {
@@ -420,6 +425,7 @@ p {
 	line-height: 1em;
 	max-width: 15em;
 	padding: 1em 0em;
+	font-family: 'Josefin Sans';
 }
 
 
@@ -663,9 +669,9 @@ p {
 	color: #8f2d56;
 	max-width: 12em;
 	margin: 0 auto;
-	font-family: 'Montserrat', "oswald";
 	line-height: 1em;
 	padding-bottom: 1em;
+	font-family: 'Josefin Sans';
 }
 
 #yt-video-container-a {
@@ -760,12 +766,12 @@ p {
 .lei-product header {
 	text-align: center;
 	width: 100%;
-	font-family: 'Montserrat';
 	text-transform: capitalize;
 	color: #461c1d;
 	font-size: 1.25em;
 	line-height: 1em;
 	margin-top: 1em;
+	font-weight: 400;
 }
 
 .lei-product p {
@@ -774,6 +780,7 @@ p {
 	text-align: center;
 	padding: 0.5em 1em;
 	font-size: 0.85em;
+	font-weight: 400;
 }
 
 .lei-product ul {
@@ -1058,13 +1065,18 @@ footer h4 {
 	padding: 8em;
 	text-align: center;
 }
-
+#hero-alt section h1{
+	text-transform: capitalize;
+	font-size: 2.5em;
+}
 #hero-alt section h2 {
 	color: white;
 	text-transform: capitalize;
-	font-size: 3em;
+	font-size: 2em;
 	line-height: 1em;
-	text-shadow: 0em 0em 1em black;
+	font-family: 'Josefin Sans';
+	max-width: 10em;
+	margin: 0 auto;
 }
 
 #hero-alt p {
@@ -1093,9 +1105,10 @@ footer h4 {
 
 #catalog-main h3 span {
 	font-size: 0.45em;
-	line-height: 1em;
+	line-height: 2em;
 	display: block;
 	color: #4d4d4d;
+	font-family: 'Josefin Sans';
 }
 
 #catalog-about {
@@ -1662,7 +1675,7 @@ td input {
 	transition: 0.3s;
 	padding: 0;
 	border-radius: 0;
-	width: 1.5em;
+	width: 1.25em;
 }
 
 .numberSpinner button:hover {
